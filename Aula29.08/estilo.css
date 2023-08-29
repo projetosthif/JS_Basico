@@ -1,0 +1,18 @@
+body{
+    background-color: rgb(212, 252, 212);
+    color: green;
+    
+}
+
+form{
+    text-align: center;
+    margin: 10%;
+    border-radius: 15%;
+    background-color: rgb(97, 197, 97);
+    padding: 3%;
+    width: 20%;
+}
+
+p{
+    font-size: 2em;
+}
