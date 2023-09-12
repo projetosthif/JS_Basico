@@ -5,6 +5,6 @@
   https://projetosthif.github.io/JS_Basico/Funcoes/funcoes
 ## Projeto IMC: 
   https://projetosthif.github.io/JS_Basico/Funcoes/Aula29.08
-##Tabuada
+## Tabuada:
   https://projetosthif.github.io/JS_Basico/Tabuada
   
