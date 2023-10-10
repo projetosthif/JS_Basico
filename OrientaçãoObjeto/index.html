@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Orientação a Objeto</title>
+</head>
+<body>
+    <div class="container">
+    <h2>Atividade JS - Orientação a Objeto</h2>
+
+    <form id="personForm">
+        <label for="firstName">Primeiro nome:</label><br>
+        <input type="text" id="firstName" ><br>
+
+        <label for="lastName">Sobrenome:</label><br>
+        <input type="text" id="lastName" ><br>
+
+        <label for="language">Idioma:</label><br>
+        <input type="text" id="language" ><br><br>
+
+        <input type="submit" value="Enviar" onclick="e()">
+    </form> 
+    </div>
+
+    <div class="Table">
+        <h2>Dados Pessoais:</h2>
+
+        <table>
+            <tr>
+                <th>Primeiro Nome</th>
+                <th>Sobrenome</th>
+                <th>Idioma</th>
+            </tr>
+            <tr id="textContent">
+                <td id="displayFirstName"> </td>
+                <td id="displayLastName"> </td>
+                <td id="displayLanguage"> </td>
+            </tr>
+        </table>
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>
