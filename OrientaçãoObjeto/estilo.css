@@ -1,19 +1,77 @@
+header{
+  color: white;
+  font-family: arial, sans-serif;
+  padding-left: 3%;
+}
+
+body{
+  background-color: blue;
+}
+
+.conteudo{
+  font-family: arial, sans-serif;
+  color: white;
+  text-align: center;
+  padding-left: 10%;
+  padding-right: 10%;
+  border: 1px;
+}
+
+.container{
+  font-family: arial, sans-serif;
+  text-align: center;
+  background-color: aliceblue;
+  padding: 2%;
+  margin-left: 25%;
+  margin-right: 25%;
+  border-radius: 1em;
+
+}
+
+
 .Table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
-    width: 100%;
+    text-align: center;
+    background-color: aliceblue;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 2%;
+    margin-top: 2%;
+    border-radius: 1em;
   }
+
+  table{
+    padding-left: 32%;
+  }
+
   
   td, th {
     border: 1px solid #dddddd;
-    text-align: left;
     padding: 8px;
+    color: blue;
+
   }
   
   tr:nth-child(even) {
     background-color: #dddddd;
+    text-align: center;
   }
 
-  .container{
-    
-  }
+.form{
+  color: blue;
+
+}
+
+.input{
+  width: 50%;
+  height: 50%;
+  margin: 0.5em;
+}
+
+
+
+
+
+
+ 

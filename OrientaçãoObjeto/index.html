@@ -4,22 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.csss">
     <link rel="stylesheet" href="estilo.css">
+
     <title>Orientação a Objeto</title>
 </head>
+
 <body>
+    <header class="fixo">
+        <h1>Orientação a Objetos</h1>
+    </header>
+
+    <div class="conteudo">
+        <h2>Definições:</h2>
+        <h3>O que é Orientação a Objeto? </h3>
+        <p>A Programação Orientada a Objeto em JS como diz o nome, é uma programação baseada em orientar um objeto (como por exemplo pessoas) com atributos (dados) e métodos (comportamento). O código JavaScript usa objetos para representar "entidades" e permite a criação de hierarquias de objetos, isso facilita a organização e o desenvolvimento dos sites e aplicativos.</p>
+
+    </div>
+
     <div class="container">
     <h2>Atividade JS - Orientação a Objeto</h2>
 
-    <form id="personForm">
-        <label for="firstName">Primeiro nome:</label><br>
-        <input type="text" id="firstName" ><br>
+    <form class="form" id="personForm">
+        <label for="firstName" class="label">Primeiro nome:</label><br>
+        <input type="text" id="firstName" class="input" ><br>
 
-        <label for="lastName">Sobrenome:</label><br>
-        <input type="text" id="lastName" ><br>
+        <label for="lastName" class="label">Sobrenome:</label><br>
+        <input type="text" id="lastName" class="input" ><br>
 
-        <label for="language">Idioma:</label><br>
-        <input type="text" id="language" ><br><br>
+        <label for="language" class="label">Idioma:</label><br>
+        <input type="text" id="language" class="input" ><br><br>
 
         <input type="submit" value="Enviar" onclick="e()">
     </form> 
@@ -27,7 +41,6 @@
 
     <div class="Table">
         <h2>Dados Pessoais:</h2>
-
         <table>
             <tr>
                 <th>Primeiro Nome</th>
