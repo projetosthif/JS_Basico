@@ -15,6 +15,7 @@ body{
   padding-left: 10%;
   padding-right: 10%;
   border: 1px;
+
 }
 
 .container{
@@ -27,7 +28,6 @@ body{
   border-radius: 1em;
 
 }
-
 
 .Table {
     font-family: arial, sans-serif;
@@ -42,7 +42,9 @@ body{
   }
 
   table{
-    padding-left: 32%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5%;
   }
 
   
@@ -65,9 +67,86 @@ body{
 
 .input{
   width: 50%;
-  height: 50%;
+  height: 3em;
   margin: 0.5em;
+  border-radius: 0.5em;
+  border-color: blue;
+  
 }
+
+.label{
+  font-size: 1.3em;
+}
+
+.enviar{
+  width: 20%;
+  height: 3em;
+  border-color: rgb(161, 205, 243);
+  border-radius: 0.5em;
+  color: black;
+  background-color: rgb(161, 205, 243);
+  font-size: 1em;
+}
+p{
+  font-size: 1.3em;
+  margin-bottom: 2em;
+}
+
+h3{
+  font-size: 1.5em;
+  margin-top: 2em;
+}
+
+h2{
+  font-size: 2.0em;
+}
+
+h1{
+  font-size: 2.3em;
+  margin: 2em;
+}
+
+footer{
+  text-align: center;
+  font-family: arial, sans-serif;
+  color: black;
+  padding: 3%;
+}
+
+.footer{
+  background-color: rgb(161, 205, 243);
+  border-radius: 0.5em;
+  padding: 2%;
+  margin-bottom: 0%;
+}
+
+@media screen and (max-width:765px){
+  h1{
+    font-size: 2em;
+    text-align: center;
+    margin: 2em;
+  }
+
+  h2{
+    font-size: 1.5em;
+  }
+  .enviar{
+    width: 7em;
+    height: 2em;
+    margin-bottom: 2em;
+  }
+
+  .input{
+    width: 65%;
+    height: 2em;
+    margin: 0.5em;
+    border-radius: 0.5em;
+    border-color: blue;
+    
+  }
+
+}
+  
 
 
 
