@@ -144,6 +144,32 @@ footer{
     border-color: blue;
     
   }
+  p{
+    font-size: 1em;
+  }
+}
+
+@media screen and (max-width:500px){
+  
+  .Table{
+    width: 80%;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+
+  }
+  #dados{
+    font-size: 1em;
+    color: white;
+    padding-right: 15px;
+  }
+  table{
+    width: auto;
+    margin-right: 5%;
+  }
+  th{
+    color: white;
+  }
 
 }
   
