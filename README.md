@@ -9,6 +9,8 @@
   https://projetosthif.github.io/JS_Basico/Tabuada
 ## Orientação a Objeto:
   https://projetosthif.github.io/JS_Basico/OrientaçãoObjeto/index
+## Orientação a Objeto com Laço:
+https://projetosthif.github.io/JS_Basico/OrientaçãoObjeto_Laço/index
 ## Galeria de troca imagens:
   https://projetosthif.github.io/JS_Basico/script_trocaimagem
 
