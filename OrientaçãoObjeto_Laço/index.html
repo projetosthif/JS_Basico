@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+
+    <title>Orientação a Objeto</title>
+</head>
+
+<body>
+    <header class="fixo">
+        <h1 class="bla">Orientação a Objetos</h1>
+    </header>
+
+    <div class="conteudo">
+        <h2>Definições:</h2>
+        <h3>O que é Orientação a Objeto? </h3>
+        <p>A Programação Orientada a Objeto em JS como diz o nome, é uma programação baseada em orientar um objeto (como por exemplo pessoas) com atributos (dados) e métodos (comportamento). O código JavaScript usa objetos para representar "entidades" e permite a criação de hierarquias de objetos, isso facilita a organização e o desenvolvimento dos sites e aplicativos.</p>
+
+    </div>
+
+    <div class="container">
+    <h2>Atividade JS - Orientação a Objeto</h2>
+
+    <form class="form" id="personForm">
+        <label for="firstName" class="label">Primeiro nome:</label><br>
+        <input type="text" id="firstName" class="input" ><br>
+
+        <label for="lastName" class="label">Sobrenome:</label><br>
+        <input type="text" id="lastName" class="input" ><br>
+
+        <label for="language" class="label">Idioma:</label><br>
+        <input type="text" id="language" class="input" ><br><br>
+
+        <input class="enviar" type="submit" value="Enviar" onclick="e()">
+    </form> 
+    </div>
+
+    <div class="Table">
+        <h2 id="dados">Dados Pessoais:</h2>
+        <table id="tableBody">
+            <tr>
+                <th>Primeiro Nome</th>
+                <th>Sobrenome</th>
+                <th>Idioma</th>
+            </tr>
+            <tr id="textContent">
+                <td id="displayFirstName"> </td>
+                <td id="displayLastName"> </td>
+                <td id="displayLanguage"> </td>
+            </tr>
+        </table>
+    </div>
+    <footer>
+        <p class="footer">Desenvolvido por Thifany Garcia</p>
+    </footer>
+
+<script src="script.js"></script>
+</body>
+</html>

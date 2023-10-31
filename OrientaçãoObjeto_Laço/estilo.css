@@ -1,0 +1,182 @@
+header{
+  color: white;
+  font-family: arial, sans-serif;
+  padding-left: 3%;
+}
+
+body{
+  background-color: blue;
+}
+
+.conteudo{
+  font-family: arial, sans-serif;
+  color: white;
+  text-align: center;
+  padding-left: 10%;
+  padding-right: 10%;
+  border: 1px;
+
+}
+
+.container{
+  font-family: arial, sans-serif;
+  text-align: center;
+  background-color: aliceblue;
+  padding: 2%;
+  margin-left: 25%;
+  margin-right: 25%;
+  border-radius: 1em;
+
+}
+
+.Table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    text-align: center;
+    background-color: aliceblue;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 2%;
+    margin-top: 2%;
+    border-radius: 1em;
+  }
+
+  table{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5%;
+  }
+
+  
+  td, th {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    color: blue;
+
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+    text-align: center;
+  }
+
+.form{
+  color: blue;
+
+}
+
+.input{
+  width: 50%;
+  height: 3em;
+  margin: 0.5em;
+  border-radius: 0.5em;
+  border-color: blue;
+  
+}
+
+.label{
+  font-size: 1.3em;
+}
+
+.enviar{
+  width: 20%;
+  height: 3em;
+  border-color: rgb(161, 205, 243);
+  border-radius: 0.5em;
+  color: black;
+  background-color: rgb(161, 205, 243);
+  font-size: 1em;
+}
+p{
+  font-size: 1.3em;
+  margin-bottom: 2em;
+}
+
+h3{
+  font-size: 1.5em;
+  margin-top: 2em;
+}
+
+h2{
+  font-size: 2.0em;
+}
+
+h1{
+  font-size: 2.3em;
+  margin: 2em;
+}
+
+footer{
+  text-align: center;
+  font-family: arial, sans-serif;
+  color: black;
+  padding: 3%;
+}
+
+.footer{
+  background-color: rgb(161, 205, 243);
+  border-radius: 0.5em;
+  padding: 2%;
+  margin-bottom: 0%;
+}
+
+@media screen and (max-width:765px){
+  h1{
+    font-size: 2em;
+    text-align: center;
+    margin: 2em;
+  }
+
+  h2{
+    font-size: 1.5em;
+  }
+  .enviar{
+    width: 7em;
+    height: 2em;
+    margin-bottom: 2em;
+  }
+
+  .input{
+    width: 65%;
+    height: 2em;
+    margin: 0.5em;
+    border-radius: 0.5em;
+    border-color: blue;
+    
+  }
+  p{
+    font-size: 1em;
+  }
+}
+
+@media screen and (max-width:500px){
+  
+  .Table{
+    width: 80%;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+
+  }
+  #dados{
+    font-size: 1em;
+    color: white;
+    padding-right: 15px;
+  }
+  table{
+    width: auto;
+    margin-right: 5%;
+  }
+  th{
+    color: white;
+  }
+
+}
+  
+
+
+
+
+
+
+ 
