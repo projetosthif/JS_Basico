@@ -1,0 +1,10 @@
+body{
+    background-color: #8EE5EE;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
