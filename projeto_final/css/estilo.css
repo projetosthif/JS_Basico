@@ -22,10 +22,11 @@ body{
 }
 
 .tudo{
-    margin: 5%;
+    margin: 10%;
     background-color:#DCDCDC;
     border-radius: 15px;
     border-style: groove;
+    height: 600px;
 }
 
 .center{
@@ -48,7 +49,7 @@ body{
 .div-forms{
     background-color:#836FFF    ;
     width: 35%;
-    height: 20%;
+    height: 100%;
     padding: 60px;
     border-radius: 15px;
     font-size: 1em;
@@ -73,6 +74,7 @@ body{
   color: black;
   font-size: 1.2em;
   font-weight: 500;
+  margin-top: 20px;
 }
 
 #enviar:hover{
@@ -87,8 +89,8 @@ body{
 
 .h1{
     position: absolute;
-    right: 170px;
-    top: 170px;
+    right: 250px;
+    top: 250px;
     width: 40%;
     text-align: center;
     font-size: 2.5em;
@@ -99,7 +101,7 @@ body{
 }
 
 #txt{
-  top: 230px;
+  top: 300px;
   font-size: 1.5em;
   font-weight: 400;
   color: black;
@@ -110,8 +112,8 @@ body{
 #img-login{
     width: 250px;
     position: absolute;
-    right: 330px;
-    bottom: 110px;
+    right: 500px;
+    bottom: 300px;
 
 }
 
@@ -292,7 +294,7 @@ header{
   }
 
   .card{
-    background-color: #7492eb;
+    background-color: #7492ebbd;
     padding: 1%;
     border-radius: 10px;
     margin-right: 7px;
@@ -331,7 +333,7 @@ header{
   /*--------------------------------------------------------------------------------------------------------*/
   /*RESPONSIVIDADE -----------------------------------------------------------------------------------------*/
 
-  @media  screen and (max-width: 1100px) {
+  @media  screen and (max-width: 1250px) {
     
     /*TELA CADASTRO --------------------------------------------------------------------------------*/
     .h1{
@@ -343,11 +345,12 @@ header{
     .div-forms{
       width: 100%;
       font-size: 0.8em;
+      background-color:#DCDCDC;
+
     }
     #img-login{
       opacity: 0%;
     }
-
   }
 
   /*TELA REGEX ----------------------------------------------------------------------------------------*/
@@ -390,11 +393,25 @@ header{
       font-size: 1.2em;
       width: 100%;
       text-align: center;
+      margin-left: 50px;
     }
     .card{
       width: 60%;
+      margin-left: 0px;
+    }
+    .exemplos-2{
+      margin-left: 100px;
     }
   }
+
+  /*TELA TROCA IMAGENS------------------------------------------------------------------------------------------------*/
+
+  @media screen and (max-width:1000px){
+    #galeria_troca{
+      margin-top: 50px;      
+    }
+  }
+  
 
 
 

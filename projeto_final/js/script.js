@@ -76,14 +76,19 @@ function validarTelefone(telefone) {
     // Verifica se o telefone está no formato correto
     return /^\(\d{2}\)\d{5}-\d{4}$/.test(telefone);
 }
+   
 
-function trocaTela(){
-    if (validarFormulario() == true){
-        window.location.href = "trocaimagem.html";
+$("#enviar").on("click", function (event){
+    //impede o envio padrão do formulário 
+    event.preventDefault();
+
+    if (validarFormulario()) {
+
+        // se o formulário for válido, leva para outra página.
+
+        window.location.href = "regex.html";
     }
-}
-
-
+})
 
 
 
