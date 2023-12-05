@@ -4,51 +4,59 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilo.css">
-    <title>Validação de Formulário com JQuery e Request</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link href="img/favicon.jpg" rel="icon">
+
+    <title>Projeto Final - Cadastro</title>
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
 </head>
 <body>
-
-    <div class="div-forms">
-        <form class="formulario" name="meuForm" onsubmit="return validarFormulario()">
-            <div class="forms_div">
-                <label for="nome">Nome: </label> <br>
-                <input class="digite" type="text" id="nome" name="nomexxx"> <br><br>
-            </div>
-            
-            <div class="forms_div">
-                <label for="nome">Email: </label> <br>
-                <input class="digite" type="text" id="email" name="email"> <br><br>
-
-            </div>
-
-            <div class="forms_div">
-                <label for="dataNascimento">Data de nascimento: </label> <br>
-                <input class="digite"  type="text" id="dataNascimento" name="dataNascimento"> <br><br>
-            </div>
-
-            <div class="forms_div">
-                <label for="telefone">Telefone: </label> <br>
-                <input class="digite"  type="text" id="telefone" name="telefone"> <br><br>
-            </div>
-
-            <div class="forms_div">
-                <label for="cpf">CPF: </label> <br>     
-                <input class="digite"  type="text" id="cpf" name="cpf"> <br><br>
-
-            </div>
-            
-            <input id="enviar" type="submit" value="Enviar">
-        </form>
+    <div>
+        <h1 class="h1">SEJA BEM VINDO</h1>
+        <h1 class="h1" id="txt">Faça o cadastro corretamente para ter acesso às outras páginas</h1>
+       <img id="img-login" src="img/login_img.png" alt="Imagem referente ao cadastro">
     </div>
 
-    <div class="img">
-       <img id="img-login" src="img/login_img.png" alt="">
+    <div class="tudo">
+        <div class="div-forms">
+            <form class="formulario" name="meuForm" onsubmit="return validarFormulario()">
+                <div class="forms_div">
+                    <label for="nome">Nome: </label> <br>
+                    <input class="digite" type="text" id="nome" name="nomexxx"> <br><br>
+                </div>
+                
+                <div class="forms_div">
+                    <label for="email">Email: </label> <br>
+                    <input class="digite" type="text" id="email" name="email"> <br><br>
+    
+                </div>
+    
+                <div class="forms_div">
+                    <label for="dataNascimento">Data de nascimento: </label> <br>
+                    <input class="digite"  type="text" id="dataNascimento" name="dataNascimento"> <br><br>
+                </div>
+    
+                <div class="forms_div">
+                    <label id="label" for="telefone">Telefone: </label> <br>
+                    <input class="digite"  type="text" id="telefone" name="telefone"> <br><br>
+                </div>
+    
+                <div class="forms_div">
+                    <label for="cpf">CPF: </label> <br>     
+                    <input class="digite"  type="text" id="cpf" name="cpf"> <br><br>
+    
+                </div>
+
+                <button id="enviar" type="submit" onclick="trocaTela()">Cadastrar</button>
+            </form>
+        </div>
+    
+        
     </div>
 
 
-    <script src="script.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>

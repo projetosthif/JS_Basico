@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link href="img/favicon.jpg" rel="icon">
+    <title>Projeto Final - RegEx & jQuery</title>
+  </head>
+
+  <body class="body" id="body">
+    <!-- !Menu! -->
+    <header>
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link active" href="regex.html">Regex</a></li>
+          <li><a class="nav-link" href="trocaimagem.html">Troca de Imagem</a></li>
+          <li><a class="nav-link" href="index.html">Cadastro</a></li>
+        </ul>
+        
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav>
+    </header>
+    <div class="nav-bg" id="nav-bg"></div>
+
+    <!-- !CABEÇALHO! -->
+    <section class="cabecalho" id="cabecalho">
+      <div class="container_cabecalho">
+        <div class="corpo_header">
+          <h2 class="titulo_hearmeout">RegEx</h2>
+          <h3>Descubra mais sobre</h3>
+        </div>
+        <div class="img_header">
+          <img class="header_img" data-animation="move" src="assets/img/avatar.jpg" alt="Imagem de uma mulher fazendo um sinald e oi em libras">
+        </div>
+      </div>
+    </section>
+    
+
+    <!-- !container! -->
+    <div class="container">
+
+      <section id="regex">
+        <div id="resumo-regex">
+          <h1 class="title-body">REgEx</h1>
+          <p>RegEx, também conhecido como expressões regulares, é como um filtro de texto. Você pode usar ele para encontrar, substituir ou analisar texto de acordo com um padrão que você define.</p> <br>
+          <div>
+            <img class="tel-img" src="img/telefone.JPG" alt="código de regex para validação de telefone">
+          </div>
+          <p>Por exemplo, você pode usa-lo para encontrar todos os e-mails em um arquivo de texto. Ou, você pode usar uma expressão regular para validar um número de telefone, foi o que usamos para validar o nosso formulário com o exemplo <b class="azul">“/^\(\d{2}\)\d{5}-\d{4}$/”</b> para o telefone. </p> <br>
+          <p>As expressões regulares são compostas de caracteres especiais e símbolos que representam padrões de caracteres. Por exemplo, a expressão regular <b class="azul">`\d`</b> corresponde a qualquer dígito. A expressão regular <b class="azul">`[a-z]`</b> corresponde a qualquer letra minúscula.
+          </p>
+        </div>
+        <div class="cards-tudo">
+          <div class="center">
+            <h1 class="subtitulo">ALGUNS EXEMPLOS DE EXPRESSÕES REGULARES: </h1>
+          </div>
+          <div class="exemplos-1">
+            <p class="card"> <b class="azul">`\w+`</b> corresponde a qualquer sequência de caracteres alfanuméricos, incluindo espaços.</p>
+            <p class="card"> <b class="azul">`[a-z0-9_]+`</b> corresponde a qualquer sequência de caracteres alfanuméricos, incluindo sublinhados.</p>
+            <p class="card"> <b class="azul" >`[0-9]{1,3}`</b> corresponde a uma sequência de 1 a 3 dígitos.</p>
+            <p class="card"> <b class="azul">`[a-z][a-z]*`</b> corresponde a uma palavra composta de 1 ou mais letras minúsculas.</p>
+          </div>
+
+          <div class="exemplos-2">
+            <p> <b class="azul">*</b> Para encontrar todos os e-mails em um arquivo de texto, você pode usar a expressão regular <b class="azul">`\w+@\w+\.\w+`</b>.</p>
+            <p> <b class="azul">*</b> Para validar um número de telefone, você pode usar a expressão regular `\d{10}`.</p>
+            <p> <b class="azul">*</b> Para validar um email <b class="azul">'/\S+@\S+\.\S+/'</b> </p>
+            <p> <b class="azul">*</b> Para validar uma data de nascimento <b class="azul">/^(0[1-9]|[12][0-9]|3[01])\/(0[1-9]|1[0-2])\/\d{4}$/</b> </p>
+          </div>
+
+        </div>
+      </section>
+      
+      <footer>
+        <p>Copyright Thifany Garcia</p>
+      </footer>
+
+    
+    <script src="js/script.js"></script>
+
+
+
+  </body>
+</html>
