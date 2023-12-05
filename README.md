@@ -13,5 +13,7 @@
 https://projetosthif.github.io/JS_Basico/OrientaçãoObjeto_Laço/index
 ## Galeria de troca imagens:
   https://projetosthif.github.io/JS_Basico/script_trocaimagem
+## Projeto Final
+  https://projetosthif.github.io/JS_Basico/projeto_final/index
 
   
